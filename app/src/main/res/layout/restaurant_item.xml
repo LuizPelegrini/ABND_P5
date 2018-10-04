@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Restaurant's Image -->
+    <ImageView
+        android:id="@+id/restaurant_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <!-- Restaurant's Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignBottom="@id/restaurant_image_view"
+        tools:text="Restaurant's Name"/>
+
+    <!-- Info -->
+    <LinearLayout
+        android:layout_below="@id/restaurant_image_view"
+        android:baselineAligned="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Restaurant's Cuisine -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cuisine_title_image_view"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                tools:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_toRightOf="@id/cuisine_title_image_view"
+                android:layout_toEndOf="@id/cuisine_title_image_view"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Chinese"/>
+        </RelativeLayout>
+
+        <!-- Restaurant's Address -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/address_title_image_view"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                tools:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_toRightOf="@id/address_title_image_view"
+                android:layout_toEndOf="@id/address_title_image_view"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Address"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
