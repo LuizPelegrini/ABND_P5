@@ -14,6 +14,10 @@ import java.util.List;
 
 public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
 
+    public RestaurantAdapter(@NonNull Context context, @NonNull List<Restaurant> objects) {
+        super(context, 0, objects);
+    }
+
     // ViewHolder design pattern for better performance and to remove unnecessary findViewById calls
     static class ViewHolder
     {
@@ -22,9 +26,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
         TextView addressTextView;
     }
 
-    public RestaurantAdapter(@NonNull Context context, int resource, int textViewResourceId, @NonNull List<Restaurant> objects) {
-        super(context, resource, textViewResourceId, objects);
-    }
+
 
     @NonNull
     @Override
