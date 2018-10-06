@@ -22,6 +22,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
     static class ViewHolder
     {
         ImageView restaurantImageView;
+        TextView restaurantNameTextView;
         TextView cuisineTextView;
         TextView addressTextView;
     }
@@ -41,6 +42,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.restaurant_item, parent, false);
 
             holder.restaurantImageView = convertView.findViewById(R.id.restaurant_image_view);
+            holder.restaurantNameTextView = convertView.findViewById(R.id.restaurant_name_text_view);
             holder.cuisineTextView = convertView.findViewById(R.id.cuisine_data_text_view);
             holder.addressTextView = convertView.findViewById(R.id.address_data_text_view);
 
@@ -53,6 +55,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
 
         // Fill UI with restaurant data
         holder.restaurantImageView.setImageResource(restaurant.getImageResource());
+        holder.restaurantNameTextView.setText(restaurant.getName());
         holder.cuisineTextView.setText(restaurant.getCuisineType());
         holder.addressTextView.setText(restaurant.getAddress());
 

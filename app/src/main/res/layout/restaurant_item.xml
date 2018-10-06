@@ -16,6 +16,7 @@
 
     <!-- Restaurant's Name -->
     <TextView
+        android:id="@+id/restaurant_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
