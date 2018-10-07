@@ -19,6 +19,8 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
                 return new RestaurantFragment();
             case 1:
                 return new AttractionsFragment();
+            case 2:
+                return new HotelFragment();
             default:
                 return null;
         }
@@ -26,6 +28,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }

@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:columnWidth="@dimen/attraction_grid_width"
     android:numColumns="auto_fit"
-    android:verticalSpacing="10dp"
-    android:horizontalSpacing="10dp"
+    android:verticalSpacing="20dp"
     android:stretchMode="columnWidth"
     android:gravity="center">
 

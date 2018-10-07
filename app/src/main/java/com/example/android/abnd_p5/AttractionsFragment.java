@@ -33,6 +33,9 @@ public class AttractionsFragment extends Fragment {
        attractions.add(new Attraction("Attraction D", R.drawable.ic_launcher_background));
        attractions.add(new Attraction("Attraction E", R.drawable.ic_launcher_background));
        attractions.add(new Attraction("Attraction F", R.drawable.ic_launcher_background));
+       attractions.add(new Attraction("Attraction G", R.drawable.ic_launcher_background));
+       attractions.add(new Attraction("Attraction H", R.drawable.ic_launcher_background));
+       attractions.add(new Attraction("Attraction I", R.drawable.ic_launcher_background));
 
        GridView gridView = rootView.findViewById(R.id.grid_view);
        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
