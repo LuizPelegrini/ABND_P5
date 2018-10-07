@@ -24,6 +24,12 @@
     <string name="artemis_address">138 Market Street, CapitaGreen Rooftop (Level 40)</string>
     <string name="summer_pavilion_address">The Ritz-Carlton, Millenia Singapore 7 Raffles Avenue </string>
     <string name="cure_address">21 Keong Saik Road</string>
+    <string name="rendezvous_hotel_address">9 Bras Basah Road</string>
+    <string name="marina_bay_sands_hotel_address">10 Bayfront Ave</string>
+    <string name="york_hotel_address">21 Mount Elizabeth</string>
+    <string name="strand_hotel_address">25 Bencoolen Street</string>
+    <string name="regent_address">1 Cuscaden Road</string>
+    <string name="aqueen_hotel_address">139 Lavender St</string>
 
     <!-- Attractions -->
     <string name="gardens_by_the_bay">Gardens By the Bay</string>
@@ -33,4 +39,12 @@
     <string name="orchard_road">Orchard Road</string>
     <string name="night_safari">Night Safari</string>
     <string name="singapore_zoo">Singapore Zoo</string>
+
+    <!-- Hotels -->
+    <string name="rendezvous_hotel">Rendezvous Hotel</string>
+    <string name="strand_hotel">Strand Hotel</string>
+    <string name="regent">The Regent</string>
+    <string name="aqueen_hotel">Aqueen Hotel</string>
+    <string name="york_hotel">York Hotel</string>
+    <string name="marina_bay_sands_hotel">Marina Bay Sands Hotel</string>
 </resources>

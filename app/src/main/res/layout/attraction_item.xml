@@ -12,6 +12,12 @@
         android:scaleType="centerCrop"
         tools:src="@mipmap/ic_launcher"/>
 
+    <ImageView
+        android:layout_width="@dimen/attraction_grid_width"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/attraction_image"
+        android:src="@drawable/ribbon"/>
+
     <TextView
         android:id="@+id/attraction_name_text_view"
         style="@style/AttractionName"

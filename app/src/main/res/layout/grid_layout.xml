@@ -9,6 +9,7 @@
     android:verticalSpacing="20dp"
     android:stretchMode="columnWidth"
     android:gravity="center"
-    android:drawSelectorOnTop="true">
+    android:drawSelectorOnTop="true"
+    android:background="@color/colorPrimaryDark">
 
 </GridView>
