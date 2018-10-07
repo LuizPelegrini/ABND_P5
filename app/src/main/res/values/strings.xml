@@ -24,4 +24,13 @@
     <string name="artemis_address">138 Market Street, CapitaGreen Rooftop (Level 40)</string>
     <string name="summer_pavilion_address">The Ritz-Carlton, Millenia Singapore 7 Raffles Avenue </string>
     <string name="cure_address">21 Keong Saik Road</string>
+
+    <!-- Attractions -->
+    <string name="gardens_by_the_bay">Gardens By the Bay</string>
+    <string name="sentosa">Sentosa</string>
+    <string name="marina_bay_sands">Marina Bay Sands</string>
+    <string name="universal_studios">Universal Studios</string>
+    <string name="orchard_road">Orchard Road</string>
+    <string name="night_safari">Night Safari</string>
+    <string name="singapore_zoo">Singapore Zoo</string>
 </resources>
