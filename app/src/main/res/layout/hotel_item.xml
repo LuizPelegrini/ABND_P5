@@ -6,6 +6,7 @@
     android:layout_height="100dp"
     android:orientation="horizontal">
 
+    <!-- Hotel Image -->
     <ImageView
         android:id="@+id/hotel_image_view"
         android:layout_width="0dp"
@@ -14,6 +15,7 @@
         android:scaleType="centerCrop"
         tools:src="@mipmap/ic_launcher"/>
 
+    <!-- Info -->
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -34,7 +36,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            tools:src="@mipmap/ic_launcher"/>
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:src="@drawable/five_star"
+            android:scaleType="centerInside"/>
 
         <TextView
             android:id="@+id/hotel_address_text_view"

@@ -3,4 +3,25 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Restaurants -->
+    <string name="colony">Colony</string>
+    <string name="artemis">Artemis</string>
+    <string name="cure">Cure</string>
+    <string name="summer_pavilion">Summer Pavilion</string>
+
+    <!-- Cuisines -->
+    <string name="chinese">Chinese</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="indian">Indian</string>
+    <string name="malaysian">Malaysian</string>
+    <string name="western">Western</string>
+    <string name="cantonese">Cantonese</string>
+    <string name="mediterranean">Mediterranean</string>
+
+    <!-- Address -->
+    <string name="colony_address">The Ritz-Carlton, Millenia Singapore 7 Raffles Avenue </string>
+    <string name="artemis_address">138 Market Street, CapitaGreen Rooftop (Level 40)</string>
+    <string name="summer_pavilion_address">The Ritz-Carlton, Millenia Singapore 7 Raffles Avenue </string>
+    <string name="cure_address">21 Keong Saik Road</string>
 </resources>

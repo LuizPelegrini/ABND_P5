@@ -30,23 +30,21 @@ public class Hotel {
 
     public int getStars() {
 
-        return R.drawable.ic_launcher_background;
-
-//        switch (this._stars)
-//        {
-//            case ONE:
-//                return R.drawable.one_star;
-//            case TWO:
-//                return R.drawable.two_star;
-//            case THREE:
-//                return R.drawable.three_star;
-//            case FOUR:
-//                return R.drawable.four_star;
-//            case FIVE:
-//                return R.drawable.five_star;
-//            default:
-//                return R.drawable.one_star;
-//        }
+        switch (this._stars)
+        {
+            case ONE:
+                return R.drawable.one_star;
+            case TWO:
+                return R.drawable.two_star;
+            case THREE:
+                return R.drawable.three_star;
+            case FOUR:
+                return R.drawable.four_star;
+            case FIVE:
+                return R.drawable.five_star;
+            default:
+                return R.drawable.one_star;
+        }
     }
 
     public String getAddress() {
