@@ -1,10 +1,10 @@
 package com.example.android.abnd_p5;
 
 class Restaurant {
-    private String _name;
-    private String _cuisineType;
-    private String _address;
-    private int _imageResource;
+    private String _name;           // The name of the restaurant
+    private String _cuisineType;    // The type of food it serves
+    private String _address;        // The address
+    private int _imageResource;     // The restaurant image resource
 
     public Restaurant(String name, String cuisineType, String address, int imageResource)
     {

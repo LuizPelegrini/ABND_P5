@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/attraction_image"
+        android:layout_width="@dimen/attraction_grid_width"
+        android:layout_height="@dimen/attraction_grid_height"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/attraction_name_text_view"
+        style="@style/AttractionName"
+        tools:text="Name"/>
+
+</RelativeLayout>
