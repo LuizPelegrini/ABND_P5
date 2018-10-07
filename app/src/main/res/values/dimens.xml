@@ -3,6 +3,8 @@
     <dimen name="restaurant_image_height">160dp</dimen>
     <dimen name="restaurant_name_padding">10dp</dimen>
     <dimen name="restaurant_name_text_size">20sp</dimen>
+    <dimen name="phrase_chinese_text_size">18sp</dimen>
+    <dimen name="phrase_english_text_size">15sp</dimen>
     <dimen name="attraction_grid_width">160dp</dimen>
     <dimen name="attraction_grid_height">160dp</dimen>
 </resources>

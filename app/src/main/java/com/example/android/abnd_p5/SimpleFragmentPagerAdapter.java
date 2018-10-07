@@ -21,6 +21,8 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
                 return new AttractionsFragment();
             case 2:
                 return new HotelFragment();
+            case 3:
+                return new PhraseFragment();
             default:
                 return null;
         }
@@ -28,6 +30,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 }
