@@ -54,4 +54,16 @@
     <string name="aqueen_hotel">Aqueen Hotel</string>
     <string name="york_hotel">York Hotel</string>
     <string name="marina_bay_sands_hotel">Marina Bay Sands Hotel</string>
+
+    <!-- Phrases -->
+    <string name="what_name">What is your name?</string>
+    <string name="goodbye">Goodbye!</string>
+    <string name="what_date">What date is today?</string>
+    <string name="what_time">What time is it?</string>
+
+    <string name="goodbye_chinese">再见</string>
+    <string name="what_name_chinese">您貴姓</string>
+    <string name="what_time_chinese">几点了</string>
+    <string name="what_date_chinese">今天几月几号</string>
+
 </resources>

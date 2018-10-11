@@ -20,6 +20,7 @@
             android:gravity="bottom"
             android:textSize="@dimen/phrase_chinese_text_size"
             android:textStyle="bold"
+            android:textColor="@android:color/white"
             tools:text="Chinese Phrase"/>
 
         <TextView
@@ -28,13 +29,14 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:textSize="@dimen/phrase_english_text_size"
+            android:textColor="@android:color/white"
             tools:text="English Phrase"/>
     </LinearLayout>
 
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_play_arrow"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"

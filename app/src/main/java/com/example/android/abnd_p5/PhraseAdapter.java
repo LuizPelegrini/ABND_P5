@@ -36,7 +36,7 @@ public class PhraseAdapter extends ArrayAdapter<Phrase> {
         {
             holder = new ViewHolder();
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.phrase_item, parent, false);
-
+            convertView.setBackgroundResource(position%2 == 0 ? R.color.colorPhraseLight : R.color.colorPhraseDark);
             holder.chineseTextView = convertView.findViewById(R.id.chinese_text_view);
             holder.englishTextView = convertView.findViewById(R.id.english_text_view);
 

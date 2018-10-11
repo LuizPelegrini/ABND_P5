@@ -22,10 +22,10 @@ import java.util.ArrayList;
  */
 public class PhraseFragment extends Fragment {
 
-    private ArrayList<Phrase> phrases;
-    private MediaPlayer mediaPlayer;
-    private AudioFocusRequest audioFocusRequest;
-    private AudioManager audioManager;
+    private ArrayList<Phrase> phrases;              // List of phrases to be shown
+    private MediaPlayer mediaPlayer;                // Media player object
+    private AudioFocusRequest audioFocusRequest;    // Request object for the audio focus
+    private AudioManager audioManager;              // Audio Manager to request and abandon focus
 
 
     public PhraseFragment() {
@@ -40,12 +40,13 @@ public class PhraseFragment extends Fragment {
         audioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
         createAudioFocusRequestObject();
+
         // Add some data to the list
         phrases = new ArrayList<>();
-        phrases.add(new Phrase("再见", "Goodbye!", R.raw.goodbye));
-        phrases.add(new Phrase("您貴姓", "What is your name?", R.raw.whatname));
-        phrases.add(new Phrase("几点了", "What time is it?", R.raw.whatime));
-        phrases.add(new Phrase("今天几月几号", "What date is today?", R.raw.whatdate));
+        phrases.add(new Phrase(getResources().getString(R.string.goodbye_chinese), getResources().getString(R.string.goodbye), R.raw.goodbye));
+        phrases.add(new Phrase(getResources().getString(R.string.what_name_chinese), getResources().getString(R.string.what_name), R.raw.whatname));
+        phrases.add(new Phrase(getResources().getString(R.string.what_time_chinese), getResources().getString(R.string.what_time), R.raw.whatime));
+        phrases.add(new Phrase(getResources().getString(R.string.what_date_chinese), getResources().getString(R.string.what_date), R.raw.whatdate));
 
         // Setup the list
         ListView listView = rootView.findViewById(R.id.list_view);
