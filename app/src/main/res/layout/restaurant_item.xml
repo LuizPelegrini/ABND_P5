@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimaryDark">
 
     <!-- Restaurant's Image -->
     <ImageView
@@ -60,6 +60,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@id/cuisine_title_image_view"
                 android:layout_toRightOf="@id/cuisine_title_image_view"
+                android:textColor="@color/colorPrimaryLight"
                 tools:text="Chinese" />
         </RelativeLayout>
 
@@ -86,6 +87,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@id/address_title_image_view"
                 android:layout_toRightOf="@id/address_title_image_view"
+                android:textColor="@color/colorPrimaryLight"
                 tools:text="Address" />
         </RelativeLayout>
     </LinearLayout>

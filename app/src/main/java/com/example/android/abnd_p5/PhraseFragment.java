@@ -1,6 +1,7 @@
 package com.example.android.abnd_p5;
 
 
+import android.content.Context;
 import android.media.AudioAttributes;
 import android.media.AudioFocusRequest;
 import android.media.AudioManager;
@@ -35,15 +36,16 @@ public class PhraseFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list_layout, container, false);
+
+        audioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
+
         createAudioFocusRequestObject();
         // Add some data to the list
         phrases = new ArrayList<>();
-//        phrases.add(new Phrase("Chinese A", "English A", R.raw.));
-//        phrases.add(new Phrase("Chinese B", "English B", R.raw.));
-//        phrases.add(new Phrase("Chinese C", "English C", R.raw.));
-//        phrases.add(new Phrase("Chinese D", "English D", R.raw.));
-//        phrases.add(new Phrase("Chinese E", "English E", R.raw.));
-//        phrases.add(new Phrase("Chinese F", "English F", R.raw.));
+        phrases.add(new Phrase("再见", "Goodbye!", R.raw.goodbye));
+        phrases.add(new Phrase("您貴姓", "What is your name?", R.raw.whatname));
+        phrases.add(new Phrase("几点了", "What time is it?", R.raw.whatime));
+        phrases.add(new Phrase("今天几月几号", "What date is today?", R.raw.whatdate));
 
         // Setup the list
         ListView listView = rootView.findViewById(R.id.list_view);

@@ -4,6 +4,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- Categories -->
+    <string name="restaurants">Restaurants</string>
+    <string name="attractions">Attractions</string>
+    <string name="hotels">Hotels</string>
+    <string name="phrases">Phrases</string>
+
+
     <!-- Restaurants -->
     <string name="colony">Colony</string>
     <string name="artemis">Artemis</string>
